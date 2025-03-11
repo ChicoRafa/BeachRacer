@@ -6,7 +6,12 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"E:/PROYECTOS/UNREAL/ProyectoIntermedio2/BeachRacer/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
-				"E:/PROYECTOS/UNREAL/ProyectoIntermedio2/BeachRacer/Content/ThirdPerson/Maps/ThirdPersonMap.umap"
+				"E:/PROYECTOS/UNREAL/ProyectoIntermedio2/BeachRacer/Content/ThirdPerson/Maps/ThirdPersonMap.umap",
+				"E:/PROYECTOS/UNREAL/ProyectoIntermedio2/BeachRacer/Content/Sounds/Bounce_Cue.uasset",
+				"E:/PROYECTOS/UNREAL/ProyectoIntermedio2/BeachRacer/Content/Sounds/Roll_Cue.uasset",
+				"E:/PROYECTOS/UNREAL/ProyectoIntermedio2/BeachRacer/Content/Sounds/260778__squirmtheverm__rolling-ball-loop.uasset",
+				"E:/PROYECTOS/UNREAL/ProyectoIntermedio2/BeachRacer/Content/Sounds/332661__reitanna__big-thud.uasset",
+				"E:/PROYECTOS/UNREAL/ProyectoIntermedio2/BeachRacer/Content/Sounds/332668__reitanna__big-thud2.uasset"
 			]
 		}
 	]
