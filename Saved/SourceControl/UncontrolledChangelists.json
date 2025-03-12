@@ -71,7 +71,14 @@
 				"E:/PROYECTOS/UNREAL/ProyectoIntermedio2/BeachRacer/Content/Entities/Boosts/BP_Powerup_Velocity1.uasset",
 				"E:/PROYECTOS/UNREAL/ProyectoIntermedio2/BeachRacer/Content/Sounds/Collect-Sound.uasset",
 				"E:/PROYECTOS/UNREAL/ProyectoIntermedio2/BeachRacer/Content/Sounds/Collect-Sound_Cue.uasset",
-				"E:/PROYECTOS/UNREAL/ProyectoIntermedio2/BeachRacer/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/54/W4HWKWE0DSO6DQCH258AFY.uasset"
+				"E:/PROYECTOS/UNREAL/ProyectoIntermedio2/BeachRacer/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/54/W4HWKWE0DSO6DQCH258AFY.uasset",
+				"E:/PROYECTOS/UNREAL/ProyectoIntermedio2/BeachRacer/Content/ThirdPerson/Input/Actions/IA_MoveVertical.uasset",
+				"E:/PROYECTOS/UNREAL/ProyectoIntermedio2/BeachRacer/Content/ThirdPerson/Input/Actions/IA_MoveHorizontal.uasset",
+				"E:/PROYECTOS/UNREAL/ProyectoIntermedio2/BeachRacer/Content/ThirdPerson/Input/IMC_Default.uasset",
+				"E:/PROYECTOS/UNREAL/ProyectoIntermedio2/BeachRacer/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
+				"E:/PROYECTOS/UNREAL/ProyectoIntermedio2/BeachRacer/Content/ThirdPerson/Blueprints/BP_Test.uasset",
+				"E:/PROYECTOS/UNREAL/ProyectoIntermedio2/BeachRacer/Content/ThirdPerson/Blueprints/BP_BeachRacerCharacter.uasset",
+				"E:/PROYECTOS/UNREAL/ProyectoIntermedio2/BeachRacer/Content/IA_MoveVertical.uasset"
 			]
 		}
 	]
