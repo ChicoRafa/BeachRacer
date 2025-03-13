@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/Julian/OneDrive/Documents/Unreal Projects/BeachRacer/Content/_Data/GM_LocalMultiplayer.uasset",
+				"C:/Users/Julian/OneDrive/Documents/Unreal Projects/BeachRacer/Content/ThirdPerson/Maps/ThirdPersonMap.umap",
+				"C:/Users/Julian/OneDrive/Documents/Unreal Projects/BeachRacer/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
+				"C:/Users/Julian/OneDrive/Documents/Unreal Projects/BeachRacer/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_P2.uasset",
+				"C:/Users/Julian/OneDrive/Documents/Unreal Projects/BeachRacer/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/B8/IZUYABUAZGTYBVWNKOPVDZ.uasset",
 				"E:/PROYECTOS/UNREAL/ProyectoIntermedio2/BeachRacer/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"E:/PROYECTOS/UNREAL/ProyectoIntermedio2/BeachRacer/Content/ThirdPerson/Maps/ThirdPersonMap.umap"
 			]
