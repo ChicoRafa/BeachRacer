@@ -24,8 +24,6 @@ public:
 	void AdjustSpeedBasedOnCurve(ACharacter* AICharacter, FVector CurrentDirection, FVector NextWaypointDirection);
 	UFUNCTION(BlueprintCallable, Category = "AI")
 	FVector GetAdjustedDirection(FVector TargetDirection);
-	UFUNCTION(BlueprintCallable, Category = "AI")
-	void CheckNavMeshProximity();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI")
 	float MaxSpeed = 700.0f; 

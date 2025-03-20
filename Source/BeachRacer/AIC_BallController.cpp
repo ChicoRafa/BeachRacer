@@ -37,7 +37,7 @@ void AAIC_BallController::AdjustSpeedBasedOnCurve(ACharacter* AICharacter, FVect
 	}
 	else
 	{
-		CharacterMovementComponent->MaxWalkSpeed = MinSpeed;
+ 		CharacterMovementComponent->MaxWalkSpeed = MinSpeed;
 	}
 	
 }
@@ -57,38 +57,4 @@ FVector AAIC_BallController::GetAdjustedDirection(FVector TargetDirection)
 	return AdjustedDirection;
 }
 
-void AAIC_BallController::CheckNavMeshProximity()
-{
-	FVector AgentLocation = GetActorLocation();
-
-	// Obtenemos el área transitable más cercana
-	UNavigationSystemV1* NavSystem = UNavigationSystemV1::GetCurrent(GetWorld());
-	if (!NavSystem) return;
-
-	// Usamos una función para obtener la ubicación más cercana dentro de la NavMesh
-	FVector ClosestPoint = NavSystem->GetNavMeshBoundsVolume()->GetActorLocation(); // O ajusta esto según cómo sea la malla de navegación de tu mapa.
-
-	// Realizamos un Line Trace desde la pelota hasta el borde de la NavMesh para verificar la proximidad
-	FVector StartLocation = AgentLocation;
-	FVector EndLocation = ClosestPoint;
-
-	FHitResult HitResult;
-	FCollisionQueryParams QueryParams;
-	QueryParams.AddIgnoredActor(this); // Ignoramos a la pelota en el trace
-
-	// Realizamos el Line Trace
-	bool bHit = GetWorld()->LineTraceSingleByChannel(HitResult, StartLocation, EndLocation, ECC_Visibility, QueryParams);
-	if (bHit)
-	{
-		// Comprobamos la distancia
-		float DistanceToNavMeshEdge = HitResult.Distance;
-
-		// Si está demasiado cerca del borde de la NavMesh, reducir la velocidad
-		if (DistanceToNavMeshEdge < SafeDistanceFromEdge)
-		{
-			// Realizamos una corrección para evitar caer
-			ApplyEdgeAvoidance();
-		}
-	}
-}
 
